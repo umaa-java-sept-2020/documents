@@ -33,7 +33,7 @@
 * Create a static method sum(int x, int y) and having return type as int. This should give sum of x + y
 * Call sum(10, 20) from main method and print the result inside main method
 
-## Activity 5 : Variable Declartion
+## Activity 5 : Variable Declaration
 --------------
 * You may see compilation error with this activity. Define a class called Test.java
 * Define a main method.
@@ -48,7 +48,7 @@
 * Inside main method call m1() without object. Run the class. Verify output.
 * What is the default value for x and y you are getting here? 
 
-## Activity 6 : Variable Declartion & Intialization
+## Activity 6 : Variable Declaration & Intialization
 -------------
 * You may see compilation error with this activity. Define a class called Test.java
 * Define a main method.
