@@ -194,3 +194,26 @@ public class Test {
     }
 }
 ```
+* Find the output?
+```java
+public class Test {
+    int x;
+    String y;
+
+    public Test(int x, String y) {
+        x = x;
+        y = y;
+    }
+
+    public static void main(String[] args) {
+        Test t = new Test(10,"john");
+        Test t1 = t;
+        System.out.println(t1 == t);
+        t1.x = 300;
+        t1.y = "alex";
+        System.out.println(t.x);
+        System.out.println(t.y);
+    }
+}
+
+```
