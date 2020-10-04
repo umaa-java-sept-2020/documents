@@ -1,6 +1,6 @@
 * Example with code to show state and behaviour of an object where behaviour depends upon the state of object?
 * What is the definition of hashcode as per java 8 document?
-* What is the full qualified name of Object class in java ?
+* What is the fully qualified name of Object class in java ?
 * Object class is in which package ?
 * Note : Find the output? Always write the explanation for the output. why you are getting that output?
 * Find the output?
