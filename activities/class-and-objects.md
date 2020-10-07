@@ -237,7 +237,7 @@ public class Calculator
 }
 ```
 * Find the output? Identify the static method & variables.
-```
+```java
 public class Test
 {
   static int x;
@@ -294,4 +294,4 @@ public class Test
     return  x + y;
   }
 }
-
+---
