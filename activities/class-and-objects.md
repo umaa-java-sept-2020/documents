@@ -217,3 +217,81 @@ public class Test {
 }
 
 ```
+* Identify State & Behaviour. Find where the state is used. Does behavour depends on the state?
+```java
+public class Calculator
+{
+   private int i;
+   private int j;
+   
+   public Calculator(int i, int j)
+   {
+     this.i = i;
+     this.j = j;
+   }
+   
+   public int sum()
+   {
+     return i + j;
+   }
+}
+```
+* Find the output? Identify the static method & variables.
+```
+public class Test
+{
+  static int x;
+  int y;
+  static{
+    x = 10;
+  }
+  
+  static{
+    x = x + 20;
+  }
+  
+  {
+    y = 100;
+  }
+  
+  {
+    y = y + 20;
+  }
+  
+  public static void main(String[] args)
+  {
+    Test t = null;
+    t.x = t.x + 40;
+    x = x + 50;
+    
+    t = new Test();
+    t.y = t.y + 200;
+    
+    Test t1 = new Test();
+    System.out.println(t.x)
+    System.out.println(t1.x)
+    System.out.println(Test.x)
+    
+    System.out.println(t.y)
+    System.out.println(t1.y)
+   
+   System.out.println(t.getX());
+   System.out.println(t1.getX());
+   System.out.println(Test.getX());
+   
+   System.out.println(t.getSum());
+   System.out.println(t1.getSum());
+   
+  }
+  
+  public static int getX()
+  {
+    return x;
+  }
+  
+  public static int getSum()
+  {
+    return  x + y;
+  }
+}
+
