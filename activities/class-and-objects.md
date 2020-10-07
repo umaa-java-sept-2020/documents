@@ -289,7 +289,7 @@ public class Test
     return x;
   }
   
-  public static int getSum()
+  public int getSum()
   {
     return  x + y;
   }
