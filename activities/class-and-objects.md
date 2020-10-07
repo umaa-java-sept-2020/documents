@@ -295,3 +295,4 @@ public class Test
   }
 }
 ```
+* Write some code to create Null Pointer Exception
